@@ -4,5 +4,9 @@ gettingStarted:
   howto: How to complete the guide
 writingTheApp:
   title: Writing the Application
+  apiai: API.AI Integration with the Grails API.AI Plugin
+  apiai-console: Setup API.AI Console
+  apiaiWebhookController: Webhooks - Call a webhook Grails controller and return a weather forecast
+  data-services: Data Services - Grails action calls an API-AI action via query and returns the API-AI response  
 runningTheApp:
   title: Running the Application

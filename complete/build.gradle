@@ -23,6 +23,11 @@ apply plugin:"org.grails.grails-gsp"
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
+     // tag::webhookDependencyMaven[]
+    maven {
+        url  "http://dl.bintray.com/vanderfox/grails-api-ai"
+    }
+    // end::webhookDependencyMaven[]
 }
 
 dependencies {
@@ -55,6 +60,9 @@ dependencies {
     testCompile "org.grails.plugins:geb"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+    // tag::webhookDependency[]
+    compile 'org.grails.plugins:grails-api-ai:0.1.2'
+    // end::webhookDependency[]
 }
 
 bootRun {
