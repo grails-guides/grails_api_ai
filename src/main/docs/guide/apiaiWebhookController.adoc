@@ -44,7 +44,7 @@ image::apiai-webhook-weathertest.png[]
 }
 ----
 
- If you get an error, click 'Show JSON' and look for the block with a status: it will likely be code 206, Partial or no content. It's not super helpful. You'll have to write code in your webhook  to capture the input JSON and output JSON. If turn on debugging level for 'org.grails.apiai' it will dump both of those to your application logs.
+If you get an error, click 'Show JSON' and look for the block with a status: it will likely be code 206, Partial or no content. It's not super helpful. You'll have to write code in your webhook  to capture the input JSON and output JSON. If turn on debugging level for 'org.grails.apiai' it will dump both of those to your application logs.
 To debug further, use the curl command and pipe that file into your local Grails application running in the debugger. Don't fall in the trap of pushing and testing over and over again, it will take too long to troubleshoot.
 
 

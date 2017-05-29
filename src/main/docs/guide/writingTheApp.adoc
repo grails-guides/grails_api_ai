@@ -1,1 +1,24 @@
-TODO: Complete the guide
+https://developer.yahoo.com/yql/[Yahoo Query Language (YQL)]
+
+____
+The YQL (Yahoo! Query Language) platform enables you to query, filter, and combine data across the web through a single interface. It exposes a SQL-like syntax that is both familiar to developers and expressive enough for getting the right data
+____
+
+[source,groovy]
+.grails-app/services/demo/WeatherMessageService.groovy
+----
+include::{sourceDir}/grails-app/services/demo/WeatherMessageService.groovy[indent=0]
+----
+
+[source,groovy]
+.grails-app/services/demo/YahooWeatherService.groovy
+----
+include::{sourceDir}/grails-app/services/demo/YahooWeatherService.groovy[indent=0]
+----
+
+
+[source,groovy]
+.src/integration-test/groovy/demo/YahooWeatherServiceIntegrationSpec.groovy
+----
+include::{sourceDir}/src/integration-test/demo/YahooWeatherServiceIntegrationSpec.groovy[indent=0]
+----
