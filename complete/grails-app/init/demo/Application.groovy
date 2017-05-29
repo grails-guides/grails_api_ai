@@ -1,4 +1,4 @@
-package grails_api_ai
+package demo
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

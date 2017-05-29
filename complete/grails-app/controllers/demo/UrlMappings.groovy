@@ -1,4 +1,4 @@
-package grails_api_ai
+package demo
 
 class UrlMappings {
 
